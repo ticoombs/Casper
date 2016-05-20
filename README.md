@@ -1,8 +1,12 @@
-# Casper
+# SeoBro
 
-The default theme for [Ghost](http://github.com/tryghost/ghost/).
+## Branch - slowbro-live
 
-To download, visit the [releases](https://github.com/TryGhost/Casper/releases) page.
+Exact copy of my running theme, mainly for my own backup
+
+The default theme for my [Ghost](http://github.com/tryghost/ghost/) installation on [Slowb.ro](https://slowb.ro).
+
+To download, git clone  https://github.com/ticoombs/seobro and run from master.
 
 ## Copyright & License
 
