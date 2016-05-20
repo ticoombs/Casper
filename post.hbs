@@ -30,6 +30,11 @@
             {{content}}
         </section>
 
+        {{#is "post, page"}}
+            <script async data-isso="//slowb.ro/isso/" src="//slowb.ro/isso/js/embed.min.js"></script>
+            <section id="isso-thread"></section>
+        {{/is}}
+
         <footer class="post-footer">
 
         {{!-- Everything inside the #author tags pulls data from the author --}}
