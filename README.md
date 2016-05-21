@@ -1,8 +1,25 @@
-# Casper
+# SeoBro
 
-The default theme for [Ghost](http://github.com/tryghost/ghost/).
+SeoBro strives to keep as close to original Casper with these requirements:
 
-To download, visit the [releases](https://github.com/TryGhost/Casper/releases) page.
+- Search Engine Optimization:
+ - nofollow external, dofollow internal
+ - Remove any possible duplicate content
+- Do not rely on any third part services
+ - or link, or create incetives to use them
+- Allow users to git clone master and be up and running
+
+## Branch - master
+
+- To download seobro
+
+```
+cd ghost-install-dir/content/themes
+curl -LOk https://github.com/ticoombs/seobro/archive/master.zip
+unzip master.zip -d seobro
+
+```
+
 
 ## Copyright & License
 
