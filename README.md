@@ -4,10 +4,25 @@
 
 Exact copy of my running theme, mainly for my own backup
 
-The default theme for my [Ghost](http://github.com/tryghost/ghost/) installation on [Slowb.ro](https://slowb.ro).
+The default theme for my [Ghost](http://github.com/tryghost/ghost/) installation on [Slowb.ro](https://blog.slowb.ro).
 
-To download, git clone  https://github.com/ticoombs/seobro and run from master.
+To install my theme either:
+
+```
+git clone  https://github.com/ticoombs/seobro your-ghost-install/content/themes/seobro
+```
+
+or
+
+```
+cd ghost-install-dir/content/themes
+curl -LOk https://github.com/ticoombs/seobro/archive/master.zip
+unzip master.zip -d seobro
+
+```
+
 =======
+
 SeoBro strives to keep as close to original Casper with these requirements:
 
 - Search Engine Optimization:
@@ -16,17 +31,6 @@ SeoBro strives to keep as close to original Casper with these requirements:
 - Do not rely on any third part services
  - or link, or create incetives to use them
 - Allow users to git clone master and be up and running
-
-## Branch - master
-
-- To download seobro
-
-```
-cd ghost-install-dir/content/themes
-curl -LOk https://github.com/ticoombs/seobro/archive/master.zip
-unzip master.zip -d seobro
-
-```
 
 
 ## Copyright & License
