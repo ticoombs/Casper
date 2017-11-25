@@ -4,8 +4,7 @@
     {{!-- Document Settings --}}
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="google-site-verification" content="RpcsA5eXMdq-x2JlxgtfqFXgzL57X-Q14Nvhp-3btOE" />
-
+    
     {{!-- Page Meta --}}
     <title>{{meta_title}}</title>
     <meta name="description" content="{{meta_description}}" />
@@ -49,26 +48,6 @@
     <script async type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
     {{!-- The main JavaScript file for Casper --}}
     <script async type="text/javascript" src="{{asset "js/index.js"}}"></script>
-    {{!-- Add reading time to posts --}}
-    <script async type="text/javascript" src="{{asset "js/reading-time.js" }}"></script>
-    {{#is "index, paged"}}
-        <script async data-isso="//slowb.ro/isso/" src="//slowb.ro/isso/js/count.min.js"></script>
-    {{/is}}
-    <!-- kiwip -->
-    <script type="text/javascript">
-      var _paq = _paq || [];
-      _paq.push(['trackPageView']);
-      _paq.push(['enableLinkTracking']);
-      (function() {
-        var u="//slowb.ro/kiwip/";
-        _paq.push(['setTrackerUrl', u+'kiwip.php']);
-        _paq.push(['setSiteId', 1]);
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'kiwip.js'; s.parentNode.insertBefore(g,s);
-      })();
-    </script>
-    <noscript><p><img src="//slowb.ro/kiwip/kiwip.php?idsite=1" style="border:0;" alt="" /></p></noscript>
-    <!-- End kiwip Code -->
 
 </body>
 </html>
