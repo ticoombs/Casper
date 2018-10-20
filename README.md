@@ -1,4 +1,4 @@
-# SeoBro
+# SeoBro - [Deprecated](https://blog.slowb.ro/seobro-ghost-theme-deprecation/)
 
 ## Branch - slowbro-live
 
